@@ -12,7 +12,7 @@
     <meta name="kdt:page" content="home-index">
     <title>Pay4Fun Cobranças</title>
     
-    <!-- This links were commented
+    <!--
         <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="/css/default-colors.min.css" rel="stylesheet" type="text/css" />
@@ -42,16 +42,25 @@
         <link href="https://p4f.com/css/iosCheckbox.min.css" rel="stylesheet" type="text/css" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="https://p4f.com/img/icons/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" sizes="180x180" href="https://p4f.com/img/icons/apple-touch-icon.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="https://p4f.com/img/icons/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="16x16" href="https://p4f.com/img/icons/favicon-16x16.png" />
-<link rel="mask-icon" href="https://p4f.com/img/icons/safari-pinned-tab.svg" color="#ffc100" />
-<meta name="apple-mobile-web-app-title" content="Pay4Fun" />
-<meta name="application-name" content="Pay4Fun" />
-<meta name="msapplication-TileColor" content="#ffc100" />
-<meta name="msapplication-config" content="https://p4f.com/img/icons/browserconfig.xml" />
-<meta name="theme-color" content="#ffffff" />
+        <link rel="shortcut icon" href="https://p4f.com/img/icons/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" sizes="180x180" href="https://p4f.com/img/icons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="https://p4f.com/img/icons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="https://p4f.com/img/icons/favicon-16x16.png" />
+        <link rel="mask-icon" href="https://p4f.com/img/icons/safari-pinned-tab.svg" color="#ffc100" />
+        <meta name="apple-mobile-web-app-title" content="Pay4Fun" />
+        <meta name="application-name" content="Pay4Fun" />
+        <meta name="msapplication-TileColor" content="#ffc100" />
+        <meta name="msapplication-config" content="https://p4f.com/img/icons/browserconfig.xml" />
+        <meta name="theme-color" content="#ffffff" />
+
+                <!-- Bootstrap 4.1.1 -->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">-->
+
+    <!-- cookiealert styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
+
+
+
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
     <div class="stickyWraper">
@@ -264,7 +273,7 @@
 </section><!-- End SERVICES -->
 <!-- FAQ -->
 <section id="faq">
-    <div class="s-faq g-bg-color--primary-ltr js__header-sticky g-padding-y-80--xs g-padding-y-50--sm" style="background-image: linear-gradient(45deg, #f6a127, #f3b02c)!important;">
+    <div class="s-faq g-bg-color--primary-ltr js__header-sticky g-padding-y-80--xs g-padding-y-50--sm" style="background-image: linear-gradient(45deg, #f6a127, #f3b011)!important;">
         <div class=" col-xs-2 col-sm-2 col-md-3"></div>
         <div class=" col-xs-8 col-sm-8 col-md-6 g-text-center--xs">
             <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white g-letter-spacing--2 g-margin-b-25--xs">Ajuda</p>
@@ -596,7 +605,7 @@
         </div>
     </div>
 </section><!-- End Merchant -->
-<!--======= END PAGE CONTENT =======-->
+<!--========== END PAGE CONTENT ==========-->
 <!--========== FOOTER ==========-->
 <div class="g-bg-color--dark">
     <!-- Links -->
@@ -716,5 +725,17 @@ var bgHeight = "null";var bgWidth = "593";window.open(url, 'SealVerfication', 'm
 </script>
 <script src="https://p4f.com/js/_userMessages.min.js?v=1.5.4"></script>
 <div id="overlay_cover"></div>
+
+    <!-- START Bootstrap-Cookie-Alert -->
+<div class="alert text-center cookiealert" role="alert">
+    <b>Aviso:</b> &#x1F36A; Este site usa cookies para melhorar a experiência do usuário <a href="https://cookiesandyou.com/" target="_blank">Saiba mais</a>
+
+    <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+        Concordo
+    </button>
+</div>
+
+<!-- Include cookiealert script -->
+<script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
 </body>
 </html>
